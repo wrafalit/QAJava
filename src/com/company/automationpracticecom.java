@@ -2,10 +2,9 @@ package com.company;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Main {
+public class automationpracticecom {
 
     public static void main(String[] args) {
 	// write your code here
@@ -45,7 +44,8 @@ public class Main {
 
         //BY CSS Selector
         driver.findElement(By.cssSelector("input#search_query_top")).sendKeys("pants");
-        driver.quit();
+
+
 
 
     }
