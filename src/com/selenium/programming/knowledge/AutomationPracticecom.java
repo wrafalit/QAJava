@@ -1,10 +1,10 @@
-package com.company;
+package com.selenium.programming.knowledge;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class automationpracticecom {
+public class AutomationPracticecom {
 
     public static void main(String[] args) {
 	// write your code here

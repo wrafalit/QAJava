@@ -1,12 +1,10 @@
-package com.company;
+package com.selenium.programming.knowledge;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import java.util.List;
 
-public class seleniumtutorial3 {
+public class SalesforceForm {
 
     public static void main(String[] args) {
         // 1. OPEN THE CHROME BROWSER
@@ -18,16 +16,11 @@ public class seleniumtutorial3 {
 
 
         // 2. NAVIGATE TO THE URL
-        String URL = "http://www.google.com";
+        String URL = "https://www.salesforce.com/form/signup/elf-v2-login/?d=70130000000Enus";
         driver.get(URL);
 
-        // BY TAGName
-
-        List<WebElement> links = driver.findElements(By.tagName("a"));
-        System.out.println(links.size());
-
-        for (WebElement link : links) {
-            System.out.println(link.getText());
-        }
+        // XPath Access
+        // Self node
+        driver.findElement(By.xpath("//input[@id='CompanyName-BbYX']/self::input")).sendKeys("ABC");
     }
 }

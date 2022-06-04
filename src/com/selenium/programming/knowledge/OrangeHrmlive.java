@@ -1,10 +1,10 @@
-package com.company;
+package com.selenium.programming.knowledge;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class orangehrmlive {
+public class OrangeHrmlive {
     public static void main(String[] args) {
         // 1. OPEN THE CHROME BROWSER
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\omenr\\IdeaProjects\\JAR\\chromedriver61.exe");
